@@ -22,3 +22,24 @@ body{
   transition-duration: 750ms;
   transition-timing-function: ease-in-out;
 }
+#wrapper>.shape:nth-child(1){
+  background-color: rgb(249, 65, 68);
+}
+#wrapper>.shape:nth-child(2){
+  background-color: rgb(243, 114, 44);
+}
+#wrapper>.shape:nth-child(3){
+  background-color: rgb(248, 150, 30);
+}
+#wrapper>.shape:nth-child(4){
+  background-color: rgb(249, 199, 79);
+}
+#wrapper>.shape:nth-child(5){
+  background-color: rgb(144, 190, 109);
+}
+#wrapper>.shape:nth-child(6){
+  background-color: rgb(67, 170, 139);
+}
+#wrapper>.shape:nth-child(7){
+  background-color: rgb(87, 117, 144);
+}
