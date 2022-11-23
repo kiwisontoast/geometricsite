@@ -16,6 +16,13 @@ const combinations=[
   {configuration:2,roundness:3},
 ];
 let prev=0;
+const index = uniqueRand(0,combinations.length-1,prev);
+  let combination=combinations[index];
+
+  wrapper.dataset.configuration=combination.configuration;
+  wrapper.dataset.roundness=combination.roundness;
+  console.log(combination);
+  prev=index;
 setInterval(()=>{
   const index = uniqueRand(0,combinations.length-1,prev);
   let combination=combinations[index];
