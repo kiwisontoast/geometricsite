@@ -88,3 +88,61 @@ body{
   height: 25%;
   width: 15%;
 }
+#wrapper[data-configuration="2"]>.shape:nth-child(1){
+  left: 25%;
+  top: 20%;
+  height: 80%;
+  width: 15%;
+}
+#wrapper[data-configuration="2"]>.shape:nth-child(2){
+  left: 40%;
+  top: 20%;
+  height: 50%;
+  width: 10%;
+}
+#wrapper[data-configuration="2"]>.shape:nth-child(3){
+  left: 50%;
+  top: 0%;
+  height: 100%;
+  width: 25%;
+}
+#wrapper[data-configuration="2"]>.shape:nth-child(4){
+  left: 0%;
+  top: 0%;
+  height: 50%;
+  width: 10%;
+}
+#wrapper[data-configuration="2"]>.shape:nth-child(5){
+  left: 10%;
+  top: 0%;
+  height: 70%;
+  width: 15%;
+}
+#wrapper[data-configuration="2"]>.shape:nth-child(6){
+  left: 75%;
+  top: 10%;
+  height: 80%;
+  width: 15%;
+}
+#wrapper[data-configuration="2"]>.shape:nth-child(7){
+  left: 90%;
+  top: 40%;
+  height: 60%;
+  width: 10%;
+}
+#wrapper[data-roundness="2"]>.shape{
+  border-radius: 0rem;
+}
+#wrapper[data-roundness="4"]>.shape:nth-child(1){
+  border-bottom-left-radius: 10rem;
+}
+#wrapper[data-roundness="4"]>.shape:nth-child(3){
+  border-top-right-radius: 12rem;
+}
+#wrapper[data-roundness="4"]>.shape:nth-child(4){
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+#wrapper[data-roundness="4"]>.shape:nth-child(7){
+  border-top-left-radius: 10rem;
+}
