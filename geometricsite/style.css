@@ -3,14 +3,14 @@ body{
   width: 100vw;
   margin: 0px;
   overflow: hidden;
-  background-color: rgb(10 10 10);
+  background-color: rgb(79, 79, 79);
 
   display: grid;
   place-items: center;
 }
 #wrapper{
   aspect-ratio: 1.618;
-  width: 90vmin;
+  width: 150vmin;
   position: relative;
 }
 #wrapper>.shape{
